@@ -1,0 +1,124 @@
+@font-face {
+    font-family: fuente;
+    src: url('/html/font/digital-7.ttf');
+}
+
+body {
+    width: 100%;
+    overflow: hidden;
+    min-width:100%;
+    text-align: center;
+    right: 1vh;
+}
+
+#todo {
+    position: absolute;
+    bottom: 5vh;
+}
+
+#velocidad {
+    font-family: fuente;
+    text-align: center;    
+    font-size: 60px;
+    color: rgb(0, 143, 12);
+    height: 100px;
+    margin-top: 920px;
+    background-color: rgba(54, 54, 54, 0.884);
+    height: 70px;
+    width: 200px;
+    margin-left: 838px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 5px;
+}
+
+#streetName {
+    font-family: fuente;
+    text-align: center;    
+    color: rgb(0, 143, 12);
+    margin-bottom: 10px;
+    background-color: rgba(54, 54, 54, 0.884);
+    height: 25px;
+    width: 200px;
+    margin-left: 838px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 4px;
+}
+
+.km {
+    color: rgb(0, 143, 12);
+    margin-left: 985px;
+    top: 955px;
+    font-family: fuente;
+}
+
+.time {
+    color: rgb(32, 184, 151);
+    margin-left: 845px;
+    top: 955px;
+    font-family: fuente;
+    font-size: 17px;
+}
+
+.street {
+    color: rgb(0, 143, 12);
+    font-family: fuente;
+}
+
+#fuel {
+    background-color: rgb(30, 199, 44);
+    margin-top: 20px;
+    margin-left: 838.5px;
+    width: 10%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.0);
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.roll {
+    font-family: fuente;
+    text-align: center;    
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgba(231, 227, 227, 0.884);
+    width: 50px;
+    margin-left: 917px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 20px;
+}
+
+
+.altura {
+    
+    font-family: fuente;
+    text-align: center;    
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: rgba(231, 227, 227, 0.884);
+    width: 40px;
+    margin-left: 860px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 20px;
+}
+
+#pitch {
+    font-family: fuente;
+    text-align: center;    
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: rgba(231, 227, 227, 0.884);
+    width: 40px;
+    margin-left: 974px;
+    box-shadow: rgba(228, 226, 226, 0.2);
+    border-radius: 20px;
+}
+
+@keyframes anim {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+#todo {
+    animation-name: anim;
+    animation-duration: 3s;
+}
